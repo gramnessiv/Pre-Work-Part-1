@@ -24,7 +24,11 @@ h1 {
 	text-align: center;
 }
 
-/* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
+/* The following font information and color codes are provided for you.  They do not match the prototype exactly,
+but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help
+you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.
+If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity
+for future applicants.  Thank you!  Happy coding!
 
 	FONTS:
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
@@ -40,3 +44,90 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+h4 {
+	font-size: 15px;
+	color: white;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 10px;
+	background-color: #424242;
+	border-radius: 2px;
+}
+
+#progress {
+ border: 1px solid #eaeaea;
+ position: relative;
+ padding: 3px;
+}
+
+#percent {
+ position: absolute;
+ left: 50%;
+}
+
+#bar {
+ height: 10px;
+ background-color: #EF5F3C;
+ width: 80%;
+}
+
+.container-two {
+	margin: 2em auto;
+	max-width: 250px;
+	text-align: center;
+}
+
+.button {
+	background-color: #1CBC2C;
+	border: none;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 2px;
+}
+
+.donation {
+	background-color: white;
+	border: solid #eaeaea;
+	color: #424242;
+	margin: 20px;
+	padding: 14px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.buttons {
+	background-color: white;
+	color: #777;
+	margin: 5px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	border-radius: 2px;
+	width: 110px;
+	height: 35px;
+	padding: 0px;
+	border: solid #eaeaea;
+	box-sizing: border-box;
+}
+
+.grey-border {
+	position: relative;
+	padding: 0px;
+	border: solid #eaeaea;
+	border-width: 1px;
+	box-sizing: border-box;
+}
+
+.why {
+	text-align: left;
+	color: #20A1D4;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 5px;
+	margin: 0px;
+}
